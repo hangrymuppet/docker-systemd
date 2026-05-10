@@ -1,6 +1,7 @@
 ---
 name: 'Release'
 on:
+  workflow_dispatch: {}
   workflow_run:
     workflows: ['Build docker images']
     types: ['completed']
