@@ -1,6 +1,6 @@
 FROM almalinux:9
 
-LABEL maintainer='Anton Melekhin'
+LABEL maintainer='hangrymuppet'
 
 ENV container=docker
 

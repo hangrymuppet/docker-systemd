@@ -1,6 +1,6 @@
 FROM rockylinux/rockylinux:8
 
-LABEL maintainer='Anton Melekhin'
+LABEL maintainer='hangrymuppet'
 
 ENV container=docker
 

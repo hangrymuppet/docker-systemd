@@ -1,6 +1,6 @@
 FROM debian:bookworm
 
-LABEL maintainer='Anton Melekhin'
+LABEL maintainer='hangrymuppet'
 
 ENV container=docker \
     DEBIAN_FRONTEND=noninteractive

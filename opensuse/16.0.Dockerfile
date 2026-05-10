@@ -1,6 +1,6 @@
 FROM opensuse/leap:16.0
 
-LABEL maintainer='Anton Melekhin'
+LABEL maintainer='hangrymuppet'
 
 ENV container=docker
 

@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-LABEL maintainer='Anton Melekhin'
+LABEL maintainer='hangrymuppet'
 
 ENV container=docker \
     DEBIAN_FRONTEND=noninteractive

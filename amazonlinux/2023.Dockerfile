@@ -1,6 +1,6 @@
 FROM amazonlinux:2023
 
-LABEL maintainer='Anton Melekhin'
+LABEL maintainer='hangrymuppet'
 
 ENV container=docker
 
