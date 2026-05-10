@@ -66,7 +66,7 @@ driver:
   name: 'docker'
 platforms:
   - name: 'instance-ubuntu'
-    image: 'hangrymuppet/docker-systemd:ubuntu-22.04'
+    image: 'muppet/docker-systemd:ubuntu-22.04'
     volumes:
       - '/sys/fs/cgroup:/sys/fs/cgroup:rw'
       - '/var/lib/containerd'
@@ -76,7 +76,7 @@ platforms:
     groups:
       - 'debian_family'
   - name: 'instance-rocky'
-    image: 'hangrymuppet/docker-systemd:rockylinux-9'
+    image: 'muppet/docker-systemd:rockylinux-9'
     volumes:
       - '/sys/fs/cgroup:/sys/fs/cgroup:rw'
       - '/var/lib/containerd'
@@ -125,4 +125,4 @@ MIT
 
 ## Author
 
-Melekhin Anton.
+hangrymuppet.
