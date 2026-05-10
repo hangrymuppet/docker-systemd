@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.13.0](https://github.com/hangrymuppet/docker-systemd/compare/v1.12.1...v1.13.0) (2026-05-10)
+
+
+### Features
+
+* add Makefile and .env for GitHub Actions runner configuration ([1239642](https://github.com/hangrymuppet/docker-systemd/commit/1239642c4bdb9e8eacd2d8693136430f789d6ad6))
+
+
+### Fixes
+
+* add workflow_dispatch trigger to build and release workflows ([4472f6c](https://github.com/hangrymuppet/docker-systemd/commit/4472f6c98b73f82bc9f1586c101c3e7eb8815518))
+* change runner from 'ubuntu-24.04' to 'self-hosted' for build jobs ([76a2073](https://github.com/hangrymuppet/docker-systemd/commit/76a2073eec576c3355305b12a16e360502b9cee5))
+
 ## [1.12.1](https://github.com/hangrymuppet/docker-systemd/compare/v1.12.0...v1.12.1) (2026-05-10)
 
 
