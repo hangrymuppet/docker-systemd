@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.12.1](https://github.com/hangrymuppet/docker-systemd/compare/v1.12.0...v1.12.1) (2026-05-10)
+
+
+### Fixes
+
+* update image references and permissions in workflows and README ([5184135](https://github.com/hangrymuppet/docker-systemd/commit/5184135ccd1368135df4e5d2fb143538e5abb834))
+* update maintainer information in Dockerfiles and LICENSE ([fbee227](https://github.com/hangrymuppet/docker-systemd/commit/fbee227d321a44b2bde8475b1aca735a13253d24))
+* update repository owner in workflow and changelog references ([1445ba7](https://github.com/hangrymuppet/docker-systemd/commit/1445ba74a6f33f1511c721d7f73496a1d8e2a75c))
+
 ## [1.12.0](https://github.com/hangrymuppet/docker-systemd/compare/v1.11.0...v1.12.0) (2025-11-10)
 
 
