@@ -66,7 +66,7 @@ driver:
   name: 'docker'
 platforms:
   - name: 'instance-ubuntu'
-    image: 'antmelekhin/docker-systemd:ubuntu-22.04'
+    image: 'hangrymuppet/docker-systemd:ubuntu-22.04'
     volumes:
       - '/sys/fs/cgroup:/sys/fs/cgroup:rw'
       - '/var/lib/containerd'
@@ -76,7 +76,7 @@ platforms:
     groups:
       - 'debian_family'
   - name: 'instance-rocky'
-    image: 'antmelekhin/docker-systemd:rockylinux-9'
+    image: 'hangrymuppet/docker-systemd:rockylinux-9'
     volumes:
       - '/sys/fs/cgroup:/sys/fs/cgroup:rw'
       - '/var/lib/containerd'
